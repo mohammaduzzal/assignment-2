@@ -1,0 +1,35 @@
+@media screen and (max-width:576px) {
+    
+        .hamburger{
+        display: block;
+
+    }
+    .nav-menu{
+        display: none;
+    }
+    .banner-section{
+        flex-direction: column;
+       width: 100%;
+      
+    }
+    .banner-child{
+        width: 100%;
+        padding: 10px;
+     
+    }
+    .banner-title{
+        margin-top: 0;
+        text-align: start;
+    }
+    .banner-text{
+        text-align: start;
+    }
+    .first{
+        top: 48%;
+        left: 18%;
+    }
+   .second{
+    top: 10%;
+    left:56%;
+   }
+}

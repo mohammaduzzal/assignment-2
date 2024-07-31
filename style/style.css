@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style: normal;
+    font-variation-settings:
+       0;
+  }
+  
+  #mia-ma{
+    font-family: 'Miama', sans-serif;
+    font-size: 4.875rem;
+    font-weight: 400px;
+                                        
+}                                                 
+ 
+  *{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* nav-bar css starts here */
+  header{
+    margin-bottom: 50px;
+    background:linear-gradient(0deg, rgba(119, 119, 119, 1),  rgba(17, 17, 17, 1));
+    
+   
+  }
+  .nav-bar{
+    border: 1px solid tomato;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 15px;
+    display:flex ;
+    justify-content: space-between;
+  }
+.nav-menu{
+  background-color: rgba(0, 0, 0, 0.336);
+/* border: 1px solid green; */
+border-radius: 39px;
+padding: 12px;
+
+}
+.nav-title{
+    color: red;
+    font-size:2.25rem;
+    font-weight:800px;
+
+}
+.menu-item{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size:1.125rem ;
+  font-weight: 400px;
+  margin: 10px;
+  
+}
+.home{
+  background-color: rgba(230, 83, 60, 1);
+  padding: 8px 20px;
+  border-radius: 45px;
+ 
+
+}
+.hamburger{
+  margin-top: 15px;
+  display: none;
+}
+  /* nav-bar css ends here */
+
+  /* banner- section css starts here  */
+  
+  
+  .banner-section{
+    max-width: 1060px;
+    border: 1px solid tomato;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    
+  }
+  .banner-child{
+    /* border: 1px solid green; */
+    width: 50%;
+    position: relative;
+
+  }
+  .banner-title{
+    margin-top: 150px;
+    font-size: 4.875rem;
+    font-weight: 900px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .banner-text{
+    font-size:1rem ;
+    font-weight:400px ;
+    color: rgba(255, 255, 255, 0.5);
+  } 
+  .button{
+    margin-top: 20px;
+}
+  .btn-banner{
+    border: none;
+    border-radius: 45px;
+    padding: 16px 45px;
+    font-size:1.125rem ;
+    font-weight: 600px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    
+  }
+  #download-btn{
+    background-color:rgba(0, 0, 0, 0.253);
+  }
+  
+  .banner-child >img{
+    width: 100%;
+  }
+  .video-tutorial{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5rem;
+    font-weight: 900px;
+  }
+  .tutorial-text{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.81rem;
+    font-weight: 400px;
+  }
+  .first{
+    background-color:rgba(0, 0, 0, 0.562);
+    padding:5px 25px ;
+    width: max-content;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    left: -5%;
+  }
+  .second{
+    background-color:rgba(0, 0, 0, 0.452);
+    padding:5px 25px ;
+    width: max-content;
+    border-radius: 15px;
+    position: absolute;
+    left: 64%;
+    top: 30%;
+
+  }
+
+
+  /* banner- section css ends here   */
+  
