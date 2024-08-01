@@ -32,4 +32,10 @@
     top: 10%;
     left:56%;
    }
+   .habits{
+    width: 100%;
+   }
+   .container-habits{
+    grid-template-columns: repeat(1, 1fr);
+   }
 }
