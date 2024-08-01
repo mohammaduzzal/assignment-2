@@ -62,6 +62,7 @@ padding: 12px;
   background-color: rgba(230, 83, 60, 1);
   padding: 8px 20px;
   border-radius: 45px;
+  
  
 
 }
@@ -210,9 +211,45 @@ padding: 12px;
     text-align: center;
 
   }
-
-
   /* habits css ends here */
+
+  /* run section css starts */
+  .run-container{
+    width: 1060px;
+    margin: 0 auto;
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 18px;
+  }
+  .run-child{
+    /* border: 1px solid green; */
+    width: 40%;
+   
+  }
+  .run-container> .run-child img{
+    width: 100%;
+    border-radius: 18px;
+  }
+  .run-title{
+    font-size: 3rem;
+    font-weight: 900px;
+    color: rgba(255, 255, 255, 1);
+    
+  }
+  .run-text{
+    font-size: 0.875rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+  }
+  .run-button{
+    margin-top: 10px;
+    padding: 10px 40px;
+  }
+  /* run section css ends */
 
 
 
