@@ -246,10 +246,138 @@ padding: 12px;
     margin-top: 5px;
   }
   .run-button{
-    margin-top: 10px;
+    
     padding: 10px 40px;
-  }
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+      }
   /* run section css ends */
+
+  /* bmi css starts */
+  .bmi{
+    width: 1060px;
+    border: 1px solid tomato;
+    margin: 0 auto;
+    padding: 10px;
+   
+  }
+  .bmi> h1, p{
+    text-align: center;
+  
+  }
+  /* bmi css ends */
+
+  /* bmi charts and form css starts */
+  .measure{
+    border: 1px solid purple;
+    margin-top: 90px;
+    background-color: rgba(255, 255, 255, 0.192);
+  }
+  .bmi-box{
+    width: 1060px;
+    border: 1px solid tomato;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .chart-title{
+    font-size:1.75rem ;
+    font-weight: 900px;
+    color:rgba(255, 255, 255, 1) ;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .box-child{
+    border: 1px solid green;
+    width: 100%;
+    
+  }
+  .table-head{
+    font-size: 1rem;
+    font-weight: 500px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .table-column{
+    font-size: 0.875rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+  }
+  table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .input{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .form-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+   
+
+  }
+  .form{
+    width: 50%;
+    margin-top: 15px;
+   
+  }
+  .select{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 73px;
+    /* margin: 0 auto; */
+
+  }
+  .gender{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .activity-factor{
+    width: 100%;
+    margin-top: 15px;
+
+  }
+  .factor{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+
+  }
+  .calculate{
+    padding: 15px 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+
+  /* bmi charts and form css ends */
 
 
 

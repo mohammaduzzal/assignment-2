@@ -46,4 +46,18 @@
    .run-child{
     width: 100%;
    }
+   .bmi{
+    width: 100%;
+   }
+   .bmi> h1, p{
+    text-align:left;
+   }
+   .bmi-box{
+    width: 100%;
+    flex-direction: column;
+   
+   }
+   
+   
+   
 }
