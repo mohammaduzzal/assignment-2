@@ -57,6 +57,18 @@
     flex-direction: column;
    
    }
+   .team-container{
+    grid-template-columns: repeat(1, 1fr);
+    background-color: black;
+ 
+   }
+   .team-card{
+    width: 65%;
+   }
+   .team{
+    width: 100%;
+   }
+  
    
    
    
