@@ -270,7 +270,6 @@ padding: 12px;
 
   /* bmi charts and form css starts */
   .measure{
-    /* border: 1px solid purple; */
     margin-top: 90px;
     background-color: rgba(255, 255, 255, 0.192);
   }
@@ -384,6 +383,7 @@ padding: 12px;
     margin: 0 auto;
    
    
+   
     
   }
   .team-container{
@@ -391,10 +391,6 @@ padding: 12px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgba(255, 255, 255, 0.192);
-  
-
-   
-  
    
   }
   .team-card{
@@ -439,4 +435,67 @@ padding: 12px;
 
 
   /* main section css ends */
+
+  /* footer css stars */
+  footer{
+    background-color:rgba(0, 0, 0, 0.938);
+    margin-top: 50px;
+  
+  }
+
+  .footer{
+    width: 1060px;
+    border: 1px solid tomato;
+    margin: 0 auto;
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+  }
+  .footer-child{
+    /* border: 1px solid green; */
+    width: 100%;
+    padding: 50px;
+  }
+  .footer-title{
+    font-size: 4.375rem;
+    font-weight: 800px;
+    color: rgba(230, 83, 60, 1);
+  }
+  .get-title{
+    font-size: 2rem;
+    font-weight: 700px;
+    color: rgba(255, 255, 255, 1);
+    text-align: start;
+  }
+  .get-text{
+    font-size: 1.5rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: start;
+  }
+  .line{
+    border: 1px solid tomato;
+    width: 1060px;
+    margin: 0 auto;
+    min-height: 50px;
+
+  }
+  .line> hr{
+    margin-top: 30px;
+    border-color: black;
+   
+  }
+  .small{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+  
+  }
+
+
+  /* footer css ends */
   
