@@ -46,15 +46,24 @@
    .run-child{
     width: 100%;
    }
+   .run-button{
+    margin: 0 auto;
+   }
    .bmi{
     width: 100%;
    }
    .bmi> h1, p{
     text-align:left;
    }
+   .chart-title{
+    text-align: left;
+   }
+   
+   
    .bmi-box{
     width: 100%;
     flex-direction: column;
+    padding: 10px;
    
    }
    .team-container{
@@ -68,6 +77,20 @@
    .team{
     width: 100%;
    }
+   .rate{
+    width: 100%;
+   }
+
+   .parent{
+    grid-template-columns: repeat(1, 1fr);
+   
+    
+   }
+   .card-rate{
+    width: 80%;
+    margin: 10px auto;
+    
+   }
 
    .footer{
     grid-template-columns: repeat(1, 1fr);
@@ -76,6 +99,7 @@
    .line{
     width: 100%;
    }
+
   
    
    

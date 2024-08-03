@@ -30,7 +30,7 @@
    
   }
   .nav-bar{
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     max-width: 1060px;
     margin: 0 auto;
     padding: 15px;
@@ -77,7 +77,7 @@ padding: 12px;
   
   .banner-section{
     max-width: 1060px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -160,7 +160,7 @@ padding: 12px;
   }
   .habits{
     width: 1060px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     min-height: 300px;
     margin: 0 auto;
    
@@ -217,7 +217,7 @@ padding: 12px;
   .run-container{
     width: 1060px;
     margin: 0 auto;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -249,7 +249,7 @@ padding: 12px;
     
     padding: 10px 40px;
     display: block;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-top: 10px;
       }
   /* run section css ends */
@@ -257,7 +257,7 @@ padding: 12px;
   /* bmi css starts */
   .bmi{
     width: 1060px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     margin: 0 auto;
     padding: 10px;
    
@@ -275,7 +275,7 @@ padding: 12px;
   }
   .bmi-box{
     width: 1060px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -377,7 +377,7 @@ padding: 12px;
 
   /* team css starts here */
   .team{
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     margin-top: 50px;
     width: 1060px;
     margin: 0 auto;
@@ -430,6 +430,37 @@ padding: 12px;
   }
   /* team css ends here */
 
+  /* rate css starts */
+  .rate{
+    width: 1060px;
+    /* min-height: 250px; */
+    border: 1px solid transparent;
+    margin: 0 auto;
+  }
+  .parent{
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+  }
+  .card-rate{
+    width: 90%;
+    border: 1px solid green;
+    text-align: center;
+    margin: 0 auto;
+   
+  }
+  .first-half{
+    background:rgba(230, 83, 60, 1);
+        margin-bottom: 20px;
+        
+  }
+  
+
+
+  /* rate css ends */
+
 
 
 
@@ -439,13 +470,12 @@ padding: 12px;
   /* footer css stars */
   footer{
     background-color:rgba(0, 0, 0, 0.938);
-    margin-top: 50px;
   
   }
 
   .footer{
     width: 1060px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     margin: 0 auto;
     min-height: 250px;
     display: grid;
@@ -475,11 +505,11 @@ padding: 12px;
     text-align: start;
   }
   .line{
-    border: 1px solid tomato;
+    border: 1px solid transparent;
     width: 1060px;
-    margin: 0 auto;
-    min-height: 50px;
-
+    margin: 0px auto;
+    
+    
   }
   .line> hr{
     margin-top: 30px;
@@ -490,12 +520,11 @@ padding: 12px;
     display: block;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 1.25rem;
     font-weight: 400px;
     color: rgba(255, 255, 255, 0.5);
   
   }
-
-
   /* footer css ends */
   
