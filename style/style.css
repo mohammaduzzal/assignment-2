@@ -131,6 +131,15 @@ padding: 12px;
     font-size: 0.81rem;
     font-weight: 400px;
   }
+  .circle{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(230, 83, 60, 1);
+    background-color: rgba(230, 83, 60, 1);
+    margin-top: 13px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
   .first{
     background-color:rgba(0, 0, 0, 0.562);
     padding:5px 25px ;
@@ -139,11 +148,13 @@ padding: 12px;
     position: absolute;
     top: 80%;
     left: -5%;
+    display: flex;
+    justify-content: space-between;
   }
   .second{
     background-color:rgba(0, 0, 0, 0.452);
     padding:5px 25px ;
-    width: max-content;
+    width:max-content;
     border-radius: 15px;
     position: absolute;
     left: 64%;
@@ -163,14 +174,14 @@ padding: 12px;
     /* border: 1px solid tomato; */
     min-height: 300px;
     margin: 0 auto;
-   
-    
-  }
+   }
+
   .habits-title{
     font-size:3rem ;
     font-weight: 900px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
+  
 
   }
   .habits-text{
