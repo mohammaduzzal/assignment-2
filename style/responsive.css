@@ -1,4 +1,7 @@
 @media screen and (max-width:576px) {
+   
+    
+   
     
         .hamburger{
         display: block;
@@ -33,6 +36,7 @@
    .second{
     top: 10%;
     left:55%;
+   padding: 3px 6px;
  
  
    
@@ -71,6 +75,18 @@
     padding: 10px;
    
    }
+   input{
+    width: 100%;
+    
+   }
+    .select{
+    width: 100%;
+   } 
+    .form{
+        width: 100%;
+    }
+  
+    
    .team-container{
     grid-template-columns: repeat(1, 1fr);
     background-color: black;
@@ -99,7 +115,11 @@
 
    .footer{
     grid-template-columns: repeat(1, 1fr);
+    
+   }
+   .footer-child{
     width: 100%;
+    margin-bottom: 30px;
    }
    .line{
     width: 100%;

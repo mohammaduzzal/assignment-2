@@ -342,7 +342,7 @@ padding: 12px;
 
   }
   .form{
-    width: 50%;
+    width: 40%;
     margin-top: 15px;
    
   }
@@ -353,8 +353,10 @@ padding: 12px;
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
-    padding: 10px 73px;
+    padding: 10px 60px;
     /* margin: 0 auto; */
+    
+    
 
   }
   .gender{
@@ -485,7 +487,7 @@ padding: 12px;
   }
 
   .footer{
-    width: 1060px;
+    /* width: 1060px; */
     /* border: 1px solid tomato; */
     margin: 0 auto;
     min-height: 250px;
@@ -494,9 +496,12 @@ padding: 12px;
    
   }
   .footer-child{
-    /* border: 1px solid green; */
-    width: 100%;
-    padding: 50px;
+    /* border: 1px solid white; */
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    margin-right: 30px;
+    margin-top: 30px;
   }
   .footer-title{
     font-size: 4.375rem;
